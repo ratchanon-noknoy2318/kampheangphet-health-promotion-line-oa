@@ -1,21 +1,44 @@
-# LINE Official Account Health Promotion Flow
+# LINE OA ANC Integration
 
-A LINE Official Account flow design for healthcare health promotion messaging, based on workflow requirements provided by nursing staff.
+ระบบเชื่อมต่อ LINE Official Account (OA) สำหรับการฝากครรภ์ (ANC)  
+รองรับการแจ้งเตือนนัดหมาย, การบันทึกข้อมูล, และการส่ง Flex Message ให้ผู้ใช้
 
-## Overview
-This project implements a structured messaging flow for a healthcare LINE Official Account, designed according to simple operational requirements such as conversation flow and user interaction steps.
+## Features
+- แจ้งเตือนนัด ANC ผ่าน LINE OA
+- ส่ง Flex Message (เช่น ตารางนัด, คำแนะนำสุขภาพแม่และเด็ก)
+- บันทึกข้อมูลลง Google Sheets หรือ HIS/HOSxP
+- รองรับ push และ reply message
 
-## Key Features
-- LINE OA message flow design
-- Health promotion content delivery flow
-- Structured conversation steps
-- Basic user interaction journey
+## Requirements
+- Node.js (latest)
+- LINE Messaging API key
+- Google Sheets API key
+- Hosting: Vercel, Netlify หรือ server โรงพยาบาล
 
-## Tech Stack
-LINE Messaging API • JSON Flow Design • Messaging Templates
+## How to Use
+1. Clone repo  
+   ```bash
+   git clone https://github.com/ratchanon-noknoy2318/line_oa_anc.git
+   npm install
+   npm run dev
+   
+2. สร้างไฟล์ .env
+ ```bash
+LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
+LINE_CHANNEL_SECRET=your_line_channel_secret
+GOOGLE_SHEETS_API_KEY=your_google_sheets_api_key
+PORT=3000
+ ```
 
-## Scope
-Workflow design only (no backend system or database integration)
+---
 
-## Domain
-Healthcare communication flow via LINE Official Account
+## ผู้พัฒนา (Author)
+
+| รายการ     | ข้อมูล |
+|------------|--------|
+| ชื่อ       | นายรัชชานนท์ นกน้อย |
+| ตำแหน่ง   | นักวิชาการคอมพิวเตอร์ |
+| GitHub     | [@ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318) |
+| LinkedIn   | [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy) |
+
+
