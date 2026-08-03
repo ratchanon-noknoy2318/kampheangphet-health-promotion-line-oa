@@ -34,11 +34,9 @@ PORT=3000
 
 ## ผู้พัฒนา (Author)
 
-| รายการ     | ข้อมูล |
-|------------|--------|
-| ชื่อ       | นายรัชชานนท์ นกน้อย |
-| ตำแหน่ง   | นักวิชาการคอมพิวเตอร์ |
-| GitHub     | [@ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318) |
-| LinkedIn   | [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy) |
+**ชื่อ:** นายรัชชานนท์ นกน้อย  
+**ตำแหน่ง:** นักวิชาการคอมพิวเตอร์  
+**GitHub:** [ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318)  
+**LinkedIn:** [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy)
 
 
