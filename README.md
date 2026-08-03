@@ -32,11 +32,11 @@ PORT=3000
 
 ---
 
-## ผู้พัฒนา (Author)
+## Author
 
-**ชื่อ:** นายรัชชานนท์ นกน้อย  
-**ตำแหน่ง:** นักวิชาการคอมพิวเตอร์  
-**GitHub:** [ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318)  
-**LinkedIn:** [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy)
+**Ratchanon Noknoy**  
+- GitHub: [ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318)  
+- LinkedIn: [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy)  
+- Role: Solo Software Engineer
 
 
